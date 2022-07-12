@@ -10,6 +10,8 @@ from .models import *
 def Index(request):
     return render(request,"user/index.html")
 
+def Sample(request):
+    return render(request,'user/sample.html')
 
 def Admin_Home(request):
     if not request.user.is_staff:
