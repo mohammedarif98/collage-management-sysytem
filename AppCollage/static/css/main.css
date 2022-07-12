@@ -1,0 +1,17 @@
+
+
+.navbar{
+    height: 80px;
+}
+li:nth-child(1){
+    padding-right:90px;
+    
+}
+.bi{
+    font-size: 18px;
+}
+body{
+    background-image: url('images/16676.jpg');
+    background-repeat: no-repeat;
+    /* position: relative; */
+  }
